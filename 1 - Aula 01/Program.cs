@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _1___Aula_01.Telas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace _1___Aula_01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new CadastroEmpresa());
         }
     }
 }

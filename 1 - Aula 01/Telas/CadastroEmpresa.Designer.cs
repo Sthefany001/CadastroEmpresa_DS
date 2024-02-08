@@ -210,6 +210,12 @@
             // cb_SituacaoCadastral
             // 
             this.cb_SituacaoCadastral.FormattingEnabled = true;
+            this.cb_SituacaoCadastral.Items.AddRange(new object[] {
+            "Ativa",
+            "Nula",
+            "Suspensa",
+            "Inapta",
+            "Baixada"});
             this.cb_SituacaoCadastral.Location = new System.Drawing.Point(151, 187);
             this.cb_SituacaoCadastral.Name = "cb_SituacaoCadastral";
             this.cb_SituacaoCadastral.Size = new System.Drawing.Size(121, 21);
@@ -236,6 +242,7 @@
             // mtb_Telefone
             // 
             this.mtb_Telefone.Location = new System.Drawing.Point(124, 317);
+            this.mtb_Telefone.Mask = "(00) 00000-0000";
             this.mtb_Telefone.Name = "mtb_Telefone";
             this.mtb_Telefone.Size = new System.Drawing.Size(100, 20);
             this.mtb_Telefone.TabIndex = 20;
@@ -257,6 +264,33 @@
             // cb_EndecoEstado
             // 
             this.cb_EndecoEstado.FormattingEnabled = true;
+            this.cb_EndecoEstado.Items.AddRange(new object[] {
+            "Alagoas ",
+            "Amapá",
+            "Amazonas",
+            "Bahia",
+            "Ceará",
+            "Distrito Federal",
+            "Espírito Santo",
+            "Goiás",
+            "Maranhão",
+            "Mato Grosso",
+            "Mato Grosso do Sul",
+            "Minas Gerais",
+            "Pará ",
+            "Paraíba",
+            "Paraná",
+            "Pernambuco",
+            "Piauí",
+            "Rio de Janeiro",
+            "Rio Grande do Norte",
+            "Rio Grande do Sul",
+            "Rondônia",
+            "Roraima",
+            "Santa Catarina",
+            "São Paulo",
+            "Sergipe",
+            "Tocantins"});
             this.cb_EndecoEstado.Location = new System.Drawing.Point(680, 75);
             this.cb_EndecoEstado.Name = "cb_EndecoEstado";
             this.cb_EndecoEstado.Size = new System.Drawing.Size(121, 21);
@@ -265,6 +299,10 @@
             // cb_NaturezaJuridica
             // 
             this.cb_NaturezaJuridica.FormattingEnabled = true;
+            this.cb_NaturezaJuridica.Items.AddRange(new object[] {
+            "EI - Empre´sario Individual",
+            "MEI - Microempreendedor Individual",
+            "Sociedade Anônima"});
             this.cb_NaturezaJuridica.Location = new System.Drawing.Point(600, 226);
             this.cb_NaturezaJuridica.Name = "cb_NaturezaJuridica";
             this.cb_NaturezaJuridica.Size = new System.Drawing.Size(121, 21);

@@ -8,20 +8,20 @@ namespace _1___Aula_01.Classes
 {
     internal class Empresa
     {
-        string Cnpj { get; set; }
-        string RazaoSocial { get; set; }    
-        string Nome { get; set; }
-        string SituacaoCadastral { get; set; }
-        string RegimeTributario { get; set; }
-        DateTime DataInicio { get; set; }
-        string Telefone { get; set; }
-        double CapitalSocial { get; set; }
-        string EnderecoCompleto { get; set; }
-        string Tipo { get; set; }
-        string PorteEmpresa { get; set; }   
-        string NaturezaJuridica { get; set; }
-        string NomeProprietario { get; set; }
-        string CpfProprietario { get; set; }
+        public string Cnpj { get; set; }
+        public string RazaoSocial { get; set; }    
+        public string Nome { get; set; }
+        public string SituacaoCadastral { get; set; }
+        public string RegimeTributario { get; set; }
+        public DateTime DataInicio { get; set; }
+        public string Telefone { get; set; }
+        public double CapitalSocial { get; set; }
+        public string EnderecoCompleto { get; set; }
+        public string Tipo { get; set; }
+        public string PorteEmpresa { get; set; }   
+        public string NaturezaJuridica { get; set; }
+        public string NomeProprietario { get; set; }
+        public string CpfProprietario { get; set; }
 
         public Empresa() { }
 
