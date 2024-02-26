@@ -17,7 +17,7 @@ namespace _1___Aula_01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CadastroEmpresa());
+            Application.Run(new Menu());
         }
     }
 }

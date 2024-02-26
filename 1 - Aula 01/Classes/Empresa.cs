@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,7 +17,11 @@ namespace _1___Aula_01.Classes
         public DateTime DataInicio { get; set; }
         public string Telefone { get; set; }
         public double CapitalSocial { get; set; }
-        public string EnderecoCompleto { get; set; }
+        public string Rua { get; set; }
+        public string Numero { get; set; }
+        public string Complemento { get; set; }
+        public string Cidade { get; set; }
+        public string Estado { get; set; }
         public string Tipo { get; set; }
         public string PorteEmpresa { get; set; }   
         public string NaturezaJuridica { get; set; }
@@ -25,7 +30,7 @@ namespace _1___Aula_01.Classes
 
         public Empresa() { }
 
-        public Empresa(string cnpj, string razaoSocial, string nome, string situacaoCadastral, string regimeTributario, DateTime dataInicio, string telefone, double capitalSocial, string enderecoCompleto, string tipo, string porteEmpresa, string naturezaJuridica, string nomeProprietario, string cpfProprietario)
+        public Empresa(string cnpj, string razaoSocial, string nome, string situacaoCadastral, string regimeTributario, DateTime dataInicio, string telefone, double capitalSocial, string rua, string numero, string complemento, string cidade, string estado, string tipo, string porteEmpresa, string naturezaJuridica, string nomeProprietario, string cpfProprietario)
         {
             Cnpj = cnpj;
             RazaoSocial = razaoSocial;
@@ -35,7 +40,11 @@ namespace _1___Aula_01.Classes
             DataInicio = dataInicio;
             Telefone = telefone;
             CapitalSocial = capitalSocial;
-            EnderecoCompleto = enderecoCompleto;
+            Rua = rua;
+            Numero = numero;
+            Complemento = complemento;
+            Cidade = cidade;
+            Estado = estado;
             Tipo = tipo;
             PorteEmpresa = porteEmpresa;
             NaturezaJuridica = naturezaJuridica;
